@@ -4,7 +4,7 @@ import './Hero.css'
 <template>
     <section class="hero">
         <div class="container">
-            <div class="hero__wrapper">
+            <div class="heroo__wrapper">
                 <div class="hero__right-wrapper">
                 <p class="hero__right-text">Любая категория</p>
                 <p class="hero__center-text">Что будем искать ?</p>
