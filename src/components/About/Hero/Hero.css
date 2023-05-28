@@ -1,0 +1,88 @@
+.hero {
+    padding-top: 12px;
+    padding-bottom: 17px;
+    background-color: #FFFFFF;
+    box-shadow: 12px 24px 24px rgba(0, 0, 0, 0.0647645);
+}
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__right-wrapper {
+    display: flex;
+    align-items: center;
+}
+.hero__right-text {
+    padding: 13px 44px 13px 30px;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    border-top-left-radius: 22.5px;
+    border-bottom-left-radius: 22.5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.hero__center-text {
+    padding: 13px 199px 13px 25px;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.hero__left-text {
+    padding: 13px 70px 13px 24px;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.hero__right-btn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 13px 18px 14px 19px;
+    border: 1px solid #19D476;
+    background-color: #19D476;
+    border-radius: 22px;
+    color: #FFFFFF;
+    margin-left: -20px;
+}
+.hero__left__wrapper {
+    position: relative;
+}
+.hero__left-btn{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 30px 13px 56px;
+    line-height: 19px;
+    background-color: #19D476;
+    border: 1px solid #19D476;
+    border-radius: 22px;
+    color: #FFFFFF;
+}
+.hero__left-btn::before{
+    position: absolute;
+    background-image: url(/public/img/hero__plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background-color: #11B463;
+    background-size: 16px 34px;
+    width: 44px;
+    height: 44.5px;
+    content: '';
+}

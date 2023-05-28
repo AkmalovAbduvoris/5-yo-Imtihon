@@ -1,0 +1,59 @@
+a.router-link-active {
+    color: #4E72CA;
+    /* border-bottom: 4px solid #4E72CA; */
+}
+/* a.router-link-active::before{
+    background-color: #4e72ca;
+    bottom: -16.5px;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    top: 38px;
+    left: 5%;
+    position: absolute;
+    transition: all .5s ease;
+    width: 127px;
+} */
+.cardshow__header{
+    display: flex;
+    position: relative;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D5D5D5;
+}
+.cardshow__link{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #9B9B9B;
+    margin-right: 90px;
+    padding-bottom: 10px;
+}
+.card__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    max-width: 254px;
+    padding-bottom: 10px;
+}
+.card__category {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+}
+.card__price {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 4px;
+    color: #000000;
+}

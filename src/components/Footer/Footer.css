@@ -1,0 +1,101 @@
+.footer__top-wrapper{
+    background-color: #282B30;
+    padding: 23px 0;
+}
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__text {
+    margin-left: 14px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 149px;
+    color: #FFFFFF;
+}
+.footer_top-text {
+    max-width: 307px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #98A4B7;
+}
+.footer__top-imgs {
+    display: flex;
+}
+.footer__bottom-wrapper{
+    background-color: #33383C;
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer__item{
+    margin-bottom: 30px;
+    width: 257px;
+}
+.footer__item-title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+}
+.footer__item-link{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    color: #878F99;
+}
+.footer__more{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(76, 86, 94, 1);
+    padding-bottom: 34px;
+    margin-bottom: 27px;
+}
+.footer__btn{
+    font-family: 'Gilroy';
+    font-size: 15px;
+    line-height: 18px;
+    background-color: inherit;
+    border: none;
+    color: #66717A;
+}
+.footer__btn::after{
+    position: absolute;
+    background-image: url(/public/img/btnno.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 7px;
+    right: 510px;
+    width: 12px;
+    height: 6px;
+    content: '';
+}
+.foooter__bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__link{
+    font-family: 'Gilroy';
+font-size: 15px;
+line-height: 18px;
+color: rgba(102, 113, 122, 1);
+}
+a.router-link-active {
+    color: rgba(5, 243, 179, 1) ;
+}

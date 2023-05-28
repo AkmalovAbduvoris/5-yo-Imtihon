@@ -1,0 +1,232 @@
+.product {
+    padding-top: 24px;
+    padding-bottom: 98px;
+}
+/* .product__wrapper {
+    
+} */
+.product__text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #787993;
+    padding-bottom: 20px;
+}
+.product__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    color: #414D6A;
+    padding-bottom: 14px;
+}
+.product__card {
+    display: flex;    
+    gap: 32px;
+}
+.product__center {
+    display: flex;
+}
+.product__images {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
+}
+.product__img{
+    object-fit: cover;
+}
+.product__images-right {
+    margin-left: 15px;   
+}
+/* .product__center-text-wrapper {
+    
+} */
+.product__top-text-wrapper {
+    display: flex;
+    justify-content: space-between;   
+}
+.product__top-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -5.89155e-05px;
+    color: #414D6A;
+}
+.product__price {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.00016833px;
+    color: #444444;
+}
+.product__center-location {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89154e-05px;
+    text-decoration-line: underline;
+    color: #4E72CA; 
+    margin-bottom: 14px;   
+}
+.product__center-phone {
+    display: flex;
+    background: #65E99F;
+    width: 56%;
+    border-radius: 18.5px;
+    margin-bottom: 7px;
+}
+.product__center-number {
+    background-color: #65E99F;
+    padding: 8px 0 8px 23px;
+    border-top-left-radius: 18.5px;
+    border-bottom-left-radius: 18.5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -6.73319e-05px;
+    color: #000000;
+    
+}
+.product__center-btn {
+    background-color: #41D481;
+    border-radius: 18.5px;
+    border: 1px solid #41D481;
+    padding: 9px 26px 9px 19px;
+    margin-left: 8px;
+}
+.product__center-user {
+    padding-top: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -3.17237e-05px;
+    color: #000000;
+}
+.product__user {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -4.13787e-05px;
+    text-decoration-line: underline;
+    color: #2AAE63;    
+}
+.product__center-buttons{
+    padding-top: 24px   ;
+}
+.product__button {
+    margin-right: 11px;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89155e-05px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 28px;
+    background-color: #304FFF;
+    border-radius: 23.5px;
+}
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+.product__item {
+    text-align: start;
+    width: 184px;
+    padding: 19px 0 21px 23px;
+    border: 1px solid rgba(151, 151, 151, 0.250226);    
+}
+.product__item:nth-child(7) .product__item-link,
+.product__item:nth-child(8) .product__item-link,
+.product__item:nth-child(10) .product__item-link,
+.product__item:nth-child(11) .product__item-link,
+.product__item:nth-child(13) .product__item-link
+{
+    text-decoration-line: underline;
+    color: #4E72CA;
+}
+.product__item:last-child{
+    width: fit-content;
+    border-right: none;
+    border-bottom: none;
+}
+.product__item:nth-child(3),
+.product__item:nth-child(6),
+.product__item:nth-child(9),
+.product__item:nth-child(12)
+{
+    border-right: none;
+}
+.product__item:nth-child(1),
+.product__item:nth-child(2),
+.product__item:nth-child(3){
+    border-top: none;
+}
+.product__item-text {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.00016833px;
+    color: #444444;
+    padding-bottom: 5px;
+    
+}
+.product__item-link {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.00016833px;
+    color: #444444;
+}
+.product__center-bottom {
+    margin-top: 10px;
+}
+.product__bottom-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -3.85217e-05px;
+    color: #414D6A;
+}
+.product__bottom-view {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 60%;   
+}
+.product__bottom-watched {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -5.89155e-05px;
+    color: #000000;
+}
+.product__bottom-report {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -5.89155e-05px;
+    color: rgba(208, 2, 27, 1);
+}

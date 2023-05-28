@@ -1,0 +1,69 @@
+/* glory-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Glory';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/glory-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* glory-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Glory';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/glory-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* glory-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Glory';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/glory-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.card{
+  padding-bottom: 74px;
+}
+.card__wrapper{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #D5D5D5;
+    border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+    padding-top: 14px;
+    padding-bottom: 26px;
+    margin-top: 10px;
+    gap: 33px;
+}
+.cardshow__wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  padding-bottom: 26px;
+  margin-top: 10px;
+  gap: 33px;
+}
