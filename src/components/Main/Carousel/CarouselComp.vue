@@ -13,7 +13,7 @@ const photos = [
 <template>
     <carousel :autoplay="3000"  :wrap-around="true" :items-to-show="3">
       <slide v-for="photo in photos" :key="photo">
-        <img :src="`public/img/${photo}`" width="359" height="238"  alt="Corusel">
+        <img :src="`img/${photo}`" width="359" height="238"  alt="Corusel">
       </slide>
   
       <template #addons>
