@@ -6,10 +6,10 @@ import './Header.css'
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <div class="logo__wrapper">
+                <router-link to="/" class="logo__wrapper">
                     <img src="/img/logo.svg" alt="logo">
                     <p class="header__text">Продай, найди, купи все что пожелаешь…</p>
-                </div>
+                </router-link>
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item"><router-link class="nav__link" to="/">Объявления</router-link></li>
