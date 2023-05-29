@@ -6,7 +6,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('../views/HomeView.vue')
+      component: () => import('../views/HomeView.vue'),
+      children: [
+        {
+          path: '/',
+          component: () => import('../components/Main/shopComponen.vue'),
+        },
+        {
+          path: '/best',
+          component: () => import('../components/Main/Best/BestComp.vue'),
+        },
+      ]
     },
     {
       path: '/about/:id',
@@ -17,6 +27,16 @@ const router = createRouter({
       path: '/add',
       name: 'add',
       component: () => import('../views/AddView.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/LoginView.vue')
+    },
+    {
+      path: '/user',
+      name: 'user',
+      component: () => import('../views/UserView.vue')
     }
   ]
 })

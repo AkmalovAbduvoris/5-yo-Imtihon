@@ -72,3 +72,12 @@ span{
     background-repeat: no-repeat;
     background-position: center;
 }
+.user__wrapper{
+    display: flex;
+    align-items: center;
+}
+.user__wrapper img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 13px;
+}

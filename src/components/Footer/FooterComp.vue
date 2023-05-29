@@ -351,13 +351,13 @@ function isOpen8(){
                     <button class="footer__btn">Покозать еще</button>
                 </div>
                 <div class="foooter__bottom">
-                    <router-link class="footer__link" to="/">Подать объявление</router-link>
-                    <router-link class="footer__link" to="/"> Объявления</router-link>
-                    <router-link class="footer__link" to="/">Магазины</router-link>
-                    <router-link class="footer__link" to="/">Помощь</router-link>
-                    <router-link class="footer__link" to="/">Безопасность</router-link>
-                    <router-link class="footer__link" to="/">Реклама на сайте</router-link>
-                    <router-link class="footer__link" to="/">О компании</router-link>
+                    <router-Link class="footer__link" to="/">Подать объявление</router-Link>
+                    <router-Link class="footer__link" to="/"> Объявления</router-Link>
+                    <router-Link class="footer__link" to="/">Магазины</router-Link>
+                    <router-Link class="footer__link" to="/">Помощь</router-Link>
+                    <router-Link class="footer__link" to="/">Безопасность</router-Link>
+                    <router-Link class="footer__link" to="/">Реклама на сайте</router-Link>
+                    <router-Link class="footer__link" to="/">О компании</router-Link>
                 </div>
             </div>
         </div>

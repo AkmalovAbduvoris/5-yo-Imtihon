@@ -1,6 +1,20 @@
 <script setup>
 import './Header.css'
-
+import { ref } from 'vue'
+import { useRouter } from 'vue-router';
+const router = useRouter()
+let user = ref(false)
+let login = ref(false)
+let token = window.localStorage.getItem('token')
+console.log(token);
+if(token){
+    user.value = true
+}else{
+    login.value = true
+}
+if(!localStorage.getItem('token')){
+    router.push('/login')
+}
 </script>
 <template>
     <header class="header">
@@ -24,7 +38,15 @@ import './Header.css'
                         <input class="radio" type="radio" name="lang" id="ru" value="ru">
                         <label class="label label-2" for="ru">Рус</label>
                     </form>
-                    <div class="nav__reg"> <p>Вход    |    Регистрация</p></div>
+                    <div class="nav__reg">
+                        <router-Link to="/login" v-if="login"> Вход    |    Регистрация</router-Link>
+                        <router-Link to="/user" v-if="user">
+                            <div class="user__wrapper">
+                                <p>Abduvoris</p>
+                                <img src="/public/img/user.jpg" width="40" height="40" alt="user">
+                            </div>
+                        </router-Link>
+                    </div>
                 </nav>
             </div>
         </div>
