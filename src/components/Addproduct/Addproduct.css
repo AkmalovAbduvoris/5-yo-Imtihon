@@ -1,0 +1,195 @@
+.addproduct {
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+/* .addproduct__wrapper {
+} */
+.addproduct__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.addproduct__top-inputs {
+    display: flex;
+    align-items: end;
+    margin-bottom: 38px;
+}
+.addproduct__inp-num {
+    padding-bottom: 7px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    outline: none;
+    margin-right: 30px;
+    color: #000000;
+}
+.addproduct__price-select {
+    border: none;
+    border-bottom: 1px solid #979797;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    padding-bottom: 7px;
+    outline: none;
+    margin-right: 25px;
+}
+.addproduct__checkbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+.addproduct__checkbox-wrapper input{
+    height: 20px;
+    width: 20px;
+}
+.addproduct__check-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    padding-left: 11px;
+}
+.addproduct__center-inputs {
+    margin-bottom: 38px;
+}
+.addproduct__top-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+.addproduct__top-item {
+    width: 240px;
+}
+.addproduct__center-list {
+    display: flex;
+    padding-bottom: 45px;
+}
+.addproduct__center-item {
+    margin-top: 18px;
+}
+.addproduct__select-list {
+    display: flex;
+}
+.addproduct__bolt {
+    padding-top: 27px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+.addproduct__price-select2{
+    border: none;
+    border-bottom: 1px solid #979797;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    padding-bottom: 7px;
+    outline: none;
+    margin-right: 30px;
+    padding-right: 155px;
+}
+.addproduct__textarea{
+    padding-top: 10px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    outline: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.addproduct__file-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    padding-bottom: 23px;
+}
+.addproduct__location-title{
+    margin-top: 23px;
+    padding-bottom: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.addproduct__file{
+    display: none;
+}
+.addproduct__file-label{
+    width: 107px;
+    height: 107px;
+    display: block;
+    background-image: url(/public/img/addproduct__file-bg.svg);
+    background-size: 107px 107px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.addproduct__iframe-location{
+    margin-top: 20px;
+}
+.addproduct__last-wrapper{
+    margin-top: 26px;
+}
+.addproduct__last-inp{
+    padding-bottom: 7px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding-right: 146px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    outline: none;
+    margin-bottom: 31px;
+    color: #000000;
+}
+.addproduct__btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+.addproduct__last-btn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+    padding: 20px 45px;
+    margin-right: 67px;
+    background-color: #19D476;
+    border-radius: 13px;
+    border: none;
+}
+.addproduct__last-link {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+}

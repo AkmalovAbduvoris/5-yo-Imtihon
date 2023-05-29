@@ -2,6 +2,7 @@
 import FooterComp from '../components/Footer/FooterComp.vue';
 import HeaderComp from '../components/Header/HeaderComp.vue';
 import HeroComp from '../components/About/Hero/HeroComp.vue';
+import AddproductComp from '../components/Addproduct/AddproductComp.vue';
 
 
 </script>
@@ -9,7 +10,7 @@ import HeroComp from '../components/About/Hero/HeroComp.vue';
     <HeaderComp />
     <main>
         <HeroComp /> 
-        <h1>Add new</h1>
+        <AddproductComp />
     </main>
     <FooterComp />
 </template>
