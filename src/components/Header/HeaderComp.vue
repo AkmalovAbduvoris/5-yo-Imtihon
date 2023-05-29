@@ -5,6 +5,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 let user = ref(false)
 let login = ref(false)
+let settings = ref(false)
 let token = window.localStorage.getItem('token')
 console.log(token);
 if(token){
@@ -40,12 +41,29 @@ if(!localStorage.getItem('token')){
                     </form>
                     <div class="nav__reg">
                         <router-Link to="/login" v-if="login"> Вход    |    Регистрация</router-Link>
-                        <router-Link to="/user" v-if="user">
-                            <div class="user__wrapper">
+                        <div class="user__wrapper">
+                            <router-Link to="/user" v-if="user">
                                 <p>Abduvoris</p>
+                            </router-Link>
+                            <div @mouseenter="settings ='true'" @mouseleave="settings = false">
                                 <img src="/public/img/user.jpg" width="40" height="40" alt="user">
+                                <Transition>
+                                    <router-link v-if="settings" class="header__settings1" to="/user">Объявления</router-link>
+                                </Transition>
+                                <Transition>
+                                    <router-link v-if="settings" class="header__settings2" to="/messages">Сообщения</router-link>
+                                </Transition>
+                                <Transition>
+                                    <router-link v-if="settings" class="header__settings3" to="/payments">Платежи  и счёт</router-link>
+                                </Transition>
+                                <Transition>
+                                    <router-link v-if="settings" class="header__settings4" to="/settings">Настройки</router-link>
+                                </Transition>
+                                <Transition>
+                                    <router-link v-if="settings" class="header__settings5" to="/my">Мой бизнес</router-link>
+                                </Transition>
                             </div>
-                        </router-Link>
+                        </div>
                     </div>
                 </nav>
             </div>

@@ -2,28 +2,29 @@
 import { useRouter } from 'vue-router';
 
 const router = useRouter()
-    import './Login.css'
-    let email = 'eve.holt@reqres.in';
-    let pass = 'cityslicka';
-    function POST() {
-        fetch('https://reqres.in/api/login',{
-            headers: {'Content-Type' : 'application/json'},
-            method: 'POST',
-            body: JSON.stringify({
-                "email": email,
-                "password": pass
-            })
-        }).then(res => res.json())
-        .then(data => {
-            if(data.token){
-                window.localStorage.setItem('token', data.token)                
-            }
+import './Login.css'
+let email = 'eve.holt@reqres.in';
+let pass = 'cityslicka';
+function POST() {
+    fetch('https://reqres.in/api/login',{
+        headers: {'Content-Type' : 'application/json'},
+        method: 'POST',
+        body: JSON.stringify({
+            "email": email,
+            "password": pass
         })
-    }
-    if(localStorage.getItem('token')){
-        router.push('/')
-    }
-    
+    }).then(res => res.json())
+    .then(data => {
+        if(data.token){
+            window.localStorage.setItem('token', data.token)
+            location.reload()
+        }
+    })
+}
+if(localStorage.getItem('token')){
+    router.push('/')
+}
+
 </script>
 <template>
     <section class="login">

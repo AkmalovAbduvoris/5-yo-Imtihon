@@ -1,8 +1,9 @@
 <script setup>
+import { RouterView } from 'vue-router'
 import HeroComp from '../components/About/Hero/HeroComp.vue';
 import FooterComp from '../components/Footer/FooterComp.vue';
 import HeaderComp from '../components/Header/HeaderComp.vue';
-import UserComp from '../components/User/UserComp.vue';
+import UserComp from '../components/User/User/UserComp.vue';
 
 </script>
 <template>
@@ -10,6 +11,7 @@ import UserComp from '../components/User/UserComp.vue';
     <main>
         <HeroComp />
         <UserComp />
+        <RouterView />
     </main>
     <FooterComp />
 </template>

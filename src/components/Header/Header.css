@@ -42,6 +42,7 @@
     margin-left: 76px;
 }
 .nav__reg {
+    position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -80,4 +81,75 @@ span{
     border-radius: 50%;
     object-fit: cover;
     margin-left: 13px;
+}
+/* HOWER EFFECT */
+.header__settings1{
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid #000;
+    /* border-radius: 20px; */
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 40px;
+    left: -20px;
+    z-index: 10;
+}
+.header__settings2{
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid #000;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 82px;
+    left: -20px;
+    z-index: 10;
+}
+.header__settings3{
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid #000;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 125px;
+    left: -20px;
+    z-index: 10;
+}
+.header__settings4{
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid #000;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 167px;
+    left: -20px;
+    z-index: 10;
+}
+.header__settings5{
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid #000;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 210px;
+    left: -20px;
+    z-index: 10;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
 }
