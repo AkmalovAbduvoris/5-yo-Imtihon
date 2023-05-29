@@ -1,18 +1,18 @@
-.hero {
+.heroo {
     padding-top: 12px;
     padding-bottom: 17px;
     background-color: #FFFFFF;
     box-shadow: 12px 24px 24px rgba(0, 0, 0, 0.0647645);
 }
-.heroo__wrapper {
+.herooo__wrapper {
     display: flex;
     justify-content: space-between;
 }
-.hero__right-wrapper {
+.heroo__right-wrapper {
     display: flex;
     align-items: center;
 }
-.hero__right-text {
+.heroo__right-text {
     padding: 13px 44px 13px 30px;
     border: 1px solid rgba(151, 151, 151, 0.496575);
     border-top-left-radius: 22.5px;
@@ -24,7 +24,7 @@
     line-height: 18px;
     color: #000000;
 }
-.hero__center-text {
+.heroo__center-text {
     padding: 13px 199px 13px 25px;
     border: 1px solid rgba(151, 151, 151, 0.496575);
     font-family: 'Gilroy';
@@ -34,7 +34,7 @@
     line-height: 18px;
     color: #000000;
 }
-.hero__left-text {
+.heroo__left-text {
     padding: 13px 70px 13px 24px;
     border: 1px solid rgba(151, 151, 151, 0.496575);
     font-family: 'Gilroy';
@@ -44,7 +44,7 @@
     line-height: 18px;
     color: #000000;
 }
-.hero__right-btn {
+.heroo__right-btn {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -57,10 +57,10 @@
     color: #FFFFFF;
     margin-left: -20px;
 }
-.hero__left__wrapper {
+.heroo__left__wrapper {
     position: relative;
 }
-.hero__left-btn{
+.heroo__left-btn{
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -72,7 +72,7 @@
     border-radius: 22px;
     color: #FFFFFF;
 }
-.hero__left-btn::before{
+.heroo__left-btn::before{
     position: absolute;
     background-image: url(/public/img/hero__plus.svg);
     background-repeat: no-repeat;
