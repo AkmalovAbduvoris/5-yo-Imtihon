@@ -1,3 +1,6 @@
+.user{
+    background-color: #FFFFFF;
+}
 .user__top-wrapper{
     display: flex;
     justify-content: space-between;

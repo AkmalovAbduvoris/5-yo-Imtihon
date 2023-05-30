@@ -29,7 +29,7 @@ if(!localStorage.getItem('token')){
                     <ul class="nav__list">
                         <li class="nav__item"><router-link class="nav__link" to="/">Объявления</router-link></li>
                         <li class="nav__item"><router-link class="nav__link" to="/add">Магазины</router-link></li>
-                        <li class="nav__item"><router-link class="nav__link" to="/login">Для бизнеса</router-link></li>
+                        <li class="nav__item"><router-link class="nav__link" to="/">Для бизнеса</router-link></li>
                         <li class="nav__item"><router-link class="nav__link" to="/">Помощь</router-link></li>
                     </ul>
                     <form class="nav__language">
