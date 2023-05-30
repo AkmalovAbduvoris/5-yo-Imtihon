@@ -17,7 +17,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -33,7 +33,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">Поднять</p>
                                 <p class="statistics__right-blue">Рекламировать</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -63,7 +63,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">Поднять</p>
                                 <p class="statistics__right-blue">Рекламировать</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -93,7 +93,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">Поднять</p>
                                 <p class="statistics__right-blue">Рекламировать</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -123,7 +123,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">Поднять</p>
                                 <p class="statistics__right-blue">Рекламировать</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -153,7 +153,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">Поднять</p>
                                 <p class="statistics__right-blue">Рекламировать</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
