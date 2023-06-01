@@ -75,7 +75,7 @@
 }
 .heroo__left-btn::before{
     position: absolute;
-    background-image: url(/public/img/hero__plus.svg);
+    background-image: url('/img/hero__plus.svg');
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;

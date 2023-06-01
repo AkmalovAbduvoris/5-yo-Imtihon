@@ -99,7 +99,7 @@
 }
 .login__right-wrapper {
     padding: 372px 318px 185px 61px;
-    background-image: url(/public/img/login__bg.png);
+    background-image: url('/img/login__bg.png');
     background-repeat: no-repeat;
     background-position: center;
 }

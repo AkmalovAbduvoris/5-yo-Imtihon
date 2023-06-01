@@ -78,7 +78,7 @@
 }
 .footer__btn::after{
     position: absolute;
-    background-image: url(/public/img/btnno.svg);
+    background-image: url('/img/btnno.svg');
     background-position: center;
     background-repeat: no-repeat;
     top: 7px;

@@ -142,7 +142,7 @@
     width: 107px;
     height: 107px;
     display: block;
-    background-image: url(/public/img/addproduct__file-bg.svg);
+    background-image: url('/img/addproduct__file-bg.svg');
     background-size: 107px 107px;
     background-position: center;
     background-repeat: no-repeat;

@@ -39,7 +39,7 @@
 }
 .card__btn::after{
     position: absolute;
-    background-image: url(/public/img/btn.svg);
+    background-image: url('/img/btn.svg');
     background-position: center;
     background-repeat: no-repeat;
     top: 25px;

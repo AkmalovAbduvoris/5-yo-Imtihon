@@ -117,7 +117,7 @@
     top: 7px;
     left: 125px;
     border-radius: 50%;
-    background-image: url(/public/img/green.svg);
+    background-image: url('/img/green.svg');
     background-repeat: no-repeat;
     background-size: 15px 26px;
     background-position: center;
@@ -131,7 +131,7 @@
     top: 7px;
     left: 272px;
     border-radius: 50%;
-    background-image: url(/public/img/blue.svg);
+    background-image: url('/img/blue.svg');
     background-repeat: no-repeat;
     background-size: 15px 26px;
     background-position: center;

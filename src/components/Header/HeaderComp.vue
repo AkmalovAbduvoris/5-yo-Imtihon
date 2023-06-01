@@ -52,7 +52,7 @@ function swichLang(e){
                                 <p>Abduvoris</p>
                             </router-link>
                             <div @mouseenter="settings ='true'" @mouseleave="settings = false">
-                                <img v-if="user" src="/public/img/user.jpg" width="40" height="40" alt="user">
+                                <img v-if="user" src="/img/user.jpg" width="40" height="40" alt="user">
                                 <Transition>
                                     <router-link v-if="settings" class="header__settings1" to="/user">{{t('user.text1')}}</router-link>
                                 </Transition>

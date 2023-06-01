@@ -69,7 +69,7 @@ span{
 #uz:checked ~ .label-1,
 #ru:checked ~ .label-2
 {
-    background-image: url(/public/img/line.svg);
+    background-image: url('/img/line.svg');
     background-size: 30px 30px;
     background-repeat: no-repeat;
     background-position: center;

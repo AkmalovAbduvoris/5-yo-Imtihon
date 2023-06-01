@@ -69,7 +69,7 @@
     left: -50px;
     width: 34px;
     height: 34px;
-    background-image: url(/public/img/hero__left.svg);
+    background-image: url('/img/hero__left.svg');
     background-size: 20px 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@
     right: -50px;
     width: 34px;
     height: 34px;
-    background-image: url(/public/img/hero__right.svg);
+    background-image: url('/img/hero__right.svg');
     background-size: 20px 15px;
     background-position: center;
     background-repeat: no-repeat;
