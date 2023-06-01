@@ -18,7 +18,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -48,7 +48,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -78,7 +78,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -108,7 +108,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
@@ -138,7 +138,7 @@ import './Statistics.css'
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
-                                <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
+                                <img src="/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
                                 <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>

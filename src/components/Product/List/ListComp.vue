@@ -25,13 +25,13 @@ const { t } = useI18n({useScope: 'global'})
                         <div class="list__btn-wrapper">
                             <p class="list__btn-text">{{t('list.text9')}}</p>
                             <button class="list__btn">
-                                <img src="/public/img/product__x.svg" width="13" height="13" alt="x">
+                                <img src="/img/product__x.svg" width="13" height="13" alt="x">
                             </button>
                         </div>
                         <div class="list__btn-wrapper">
                             <p class="list__btn-text">{{t('list.text10')}}</p>
                             <button class="list__btn">
-                                <img src="/public/img/product__x.svg" width="13" height="13" alt="x">
+                                <img src="/img/product__x.svg" width="13" height="13" alt="x">
                             </button>
                         </div>
                     </div>
