@@ -47,8 +47,8 @@ function isOpen8(){
                     </div>
                     <p class="footer_top-text">{{t('footer.text2')}}</p>
                     <div class="footer__top-imgs">
-                        <img src="/public/img/footer__store.svg" alt="app store">
-                        <img src="/public/img/footer__play.svg" alt="google play">
+                        <img src="/img/footer__store.svg" alt="app store">
+                        <img src="/img/footer__play.svg" alt="google play">
                     </div>
                 </div>
             </div>
