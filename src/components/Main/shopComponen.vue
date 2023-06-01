@@ -3,7 +3,8 @@ import axios from 'axios';
 import { ref } from 'vue';
 import CardComp from './Card/CardComp.vue';
 import CardshowComp from './CardShow/CardshowComp.vue';
-
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n({useScope: 'global'})
 
 let data = ref([])
 let obj = ref([])
@@ -28,7 +29,7 @@ fetch()
           <CardComp :product="products"/>
         </div>
         <div class="show__more">
-          <button @click="putId" v-if="btnShow" class="card__btn">Покозать еще</button>
+          <button @click="putId" v-if="btnShow" class="card__btn">{{t('card.show')}}</button>
         </div>
         <div v-if="isOpen" class="cardshow__wrapper">
           <div  v-for="(item, index) in obj" :key="index">

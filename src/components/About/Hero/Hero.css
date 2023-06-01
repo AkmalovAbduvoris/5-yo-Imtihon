@@ -25,7 +25,8 @@
     color: #000000;
 }
 .heroo__center-text {
-    padding: 13px 199px 13px 25px;
+    padding: 13px 0px 13px 25px;
+    width: 229px;
     border: 1px solid rgba(151, 151, 151, 0.496575);
     font-family: 'Gilroy';
     font-style: normal;

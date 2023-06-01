@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n({useScope: 'global'})
 let modal = ref(false)
 
 
@@ -18,150 +19,150 @@ import './Statistics.css'
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
                                 <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
-                                <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
+                                <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
-                                    <p class="statistics__left-text">6 000 000 сум</p>
+                                    <p class="statistics__left-text">{{t('user.pay1')}}</p>
                                 </div>
                             </div>
                             <div class="statistics__right-wrapper">
                                 <div class="statistics__text">
                                     <p class="statistics__right-text"># 345 002</p>
-                                    <p class="statistics__right-text">С: 28 июнь</p>
-                                    <p class="statistics__right-text">По: 28 июль</p>
+                                    <p class="statistics__right-text">{{t('user.data1')}}</p>
+                                    <p class="statistics__right-text">{{t('user.data2')}}</p>
                                 </div>
-                                <p class="statistics__right-green">Поднять</p>
-                                <p class="statistics__right-blue">Рекламировать</p>
+                                <p class="statistics__right-green">{{t('user.green')}}</p>
+                                <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
                                     <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
                         <div class="statistics__bottom-wrapper">
-                            <p class="statistics__bottom-link">Статистика</p>
-                            <p class="statistics__bottom-text">Просмотры: 195</p>
-                            <p class="statistics__bottom-text">Тел.: 200</p>
-                            <p class="statistics__bottom-text">В Избранном: 0</p>
+                            <p class="statistics__bottom-link">{{t('user.bottom1')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom2')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom3')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom4')}}</p>
                         </div>
                     </li>
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
                                 <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
-                                <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
+                                <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
-                                    <p class="statistics__left-text">6 000 000 сум</p>
+                                    <p class="statistics__left-text">{{t('user.pay1')}}</p>
                                 </div>
                             </div>
                             <div class="statistics__right-wrapper">
                                 <div class="statistics__text">
                                     <p class="statistics__right-text"># 345 002</p>
-                                    <p class="statistics__right-text">С: 28 июнь</p>
-                                    <p class="statistics__right-text">По: 28 июль</p>
+                                    <p class="statistics__right-text">{{t('user.data1')}}</p>
+                                    <p class="statistics__right-text">{{t('user.data2')}}</p>
                                 </div>
-                                <p class="statistics__right-green">Поднять</p>
-                                <p class="statistics__right-blue">Рекламировать</p>
+                                <p class="statistics__right-green">{{t('user.green')}}</p>
+                                <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
                                     <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
                         <div class="statistics__bottom-wrapper">
-                            <p class="statistics__bottom-link">Статистика</p>
-                            <p class="statistics__bottom-text">Просмотры: 195</p>
-                            <p class="statistics__bottom-text">Тел.: 200</p>
-                            <p class="statistics__bottom-text">В Избранном: 0</p>
+                            <p class="statistics__bottom-link">{{t('user.bottom1')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom2')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom3')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom4')}}</p>
                         </div>
                     </li>
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
                                 <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
-                                <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
+                                <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
-                                    <p class="statistics__left-text">6 000 000 сум</p>
+                                    <p class="statistics__left-text">{{t('user.pay1')}}</p>
                                 </div>
                             </div>
                             <div class="statistics__right-wrapper">
                                 <div class="statistics__text">
                                     <p class="statistics__right-text"># 345 002</p>
-                                    <p class="statistics__right-text">С: 28 июнь</p>
-                                    <p class="statistics__right-text">По: 28 июль</p>
+                                    <p class="statistics__right-text">{{t('user.data1')}}</p>
+                                    <p class="statistics__right-text">{{t('user.data2')}}</p>
                                 </div>
-                                <p class="statistics__right-green">Поднять</p>
-                                <p class="statistics__right-blue">Рекламировать</p>
+                                <p class="statistics__right-green">{{t('user.green')}}</p>
+                                <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
                                     <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
                         <div class="statistics__bottom-wrapper">
-                            <p class="statistics__bottom-link">Статистика</p>
-                            <p class="statistics__bottom-text">Просмотры: 195</p>
-                            <p class="statistics__bottom-text">Тел.: 200</p>
-                            <p class="statistics__bottom-text">В Избранном: 0</p>
+                            <p class="statistics__bottom-link">{{t('user.bottom1')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom2')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom3')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom4')}}</p>
                         </div>
                     </li>
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
                                 <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
-                                <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
+                                <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
-                                    <p class="statistics__left-text">6 000 000 сум</p>
+                                    <p class="statistics__left-text">{{t('user.pay1')}}</p>
                                 </div>
                             </div>
                             <div class="statistics__right-wrapper">
                                 <div class="statistics__text">
                                     <p class="statistics__right-text"># 345 002</p>
-                                    <p class="statistics__right-text">С: 28 июнь</p>
-                                    <p class="statistics__right-text">По: 28 июль</p>
+                                    <p class="statistics__right-text">{{t('user.data1')}}</p>
+                                    <p class="statistics__right-text">{{t('user.data2')}}</p>
                                 </div>
-                                <p class="statistics__right-green">Поднять</p>
-                                <p class="statistics__right-blue">Рекламировать</p>
+                                <p class="statistics__right-green">{{t('user.green')}}</p>
+                                <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
                                     <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
                         <div class="statistics__bottom-wrapper">
-                            <p class="statistics__bottom-link">Статистика</p>
-                            <p class="statistics__bottom-text">Просмотры: 195</p>
-                            <p class="statistics__bottom-text">Тел.: 200</p>
-                            <p class="statistics__bottom-text">В Избранном: 0</p>
+                            <p class="statistics__bottom-link">{{t('user.bottom1')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom2')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom3')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom4')}}</p>
                         </div>
                     </li>
                     <li class="statistics__item">
                         <div class="statistics__top-wrapper">
                             <div class="statistics__left-wrapper">
                                 <img src="/public/img/statistics__img.jpg" width="49" height="49" alt="jpeg">
-                                <h4 class="statistics__left-title">Срочно нужен программист yii2</h4>
+                                <h4 class="statistics__left-title">{{t('user.title1')}}</h4>
                                 <div class="statistics__text">
                                     <p class="statistics__left-text">2 000 000</p>
-                                    <p class="statistics__left-text">6 000 000 сум</p>
+                                    <p class="statistics__left-text">{{t('user.pay1')}}</p>
                                 </div>
                             </div>
                             <div class="statistics__right-wrapper">
                                 <div class="statistics__text">
                                     <p class="statistics__right-text"># 345 002</p>
-                                    <p class="statistics__right-text">С: 28 июнь</p>
-                                    <p class="statistics__right-text">По: 28 июль</p>
+                                    <p class="statistics__right-text">{{t('user.data1')}}</p>
+                                    <p class="statistics__right-text">{{t('user.data2')}}</p>
                                 </div>
-                                <p class="statistics__right-green">Поднять</p>
-                                <p class="statistics__right-blue">Рекламировать</p>
+                                <p class="statistics__right-green">{{t('user.green')}}</p>
+                                <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
                                     <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
                         <div class="statistics__bottom-wrapper">
-                            <p class="statistics__bottom-link">Статистика</p>
-                            <p class="statistics__bottom-text">Просмотры: 195</p>
-                            <p class="statistics__bottom-text">Тел.: 200</p>
-                            <p class="statistics__bottom-text">В Избранном: 0</p>
+                            <p class="statistics__bottom-link">{{t('user.bottom1')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom2')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom3')}}</p>
+                            <p class="statistics__bottom-text">{{t('user.bottom4')}}</p>
                         </div>
                     </li>
                 </ul>

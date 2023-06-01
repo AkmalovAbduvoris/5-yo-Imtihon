@@ -25,15 +25,15 @@ fetch()
         <div class="container">
             <div class="product__wrapper">
                 <p class="product__text">Объявления / Ташкент Недвижимость / Ташкент Квартиры / Ташкент Продажа / Новостройки Ташкент</p>
-                <h2 class="product__title">{{ obj.title }}</h2>
+                <h2 class="product__title">{{ obj?.title }}</h2>
                 <div class="product__card">
                     <div class="product__center">
                         <div class="product__images">
-                            <img class="product__img" :src="obj.image" width="85" height="85" :alt="obj.title">
-                            <img class="product__img" :src="obj.image" width="85" height="85" :alt="obj.title">
-                            <img class="product__img" :src="obj.image" width="85" height="85" :alt="obj.title">
-                            <img class="product__img" :src="obj.image" width="85" height="85" :alt="obj.title">
-                            <img class="product__img" :src="obj.image" width="85" height="85" :alt="obj.title">
+                            <img class="product__img" :src="obj?.image" width="85" height="85" :alt="obj?.title">
+                            <img class="product__img" :src="obj?.image" width="85" height="85" :alt="obj?.title">
+                            <img class="product__img" :src="obj?.image" width="85" height="85" :alt="obj?.title">
+                            <img class="product__img" :src="obj?.image" width="85" height="85" :alt="obj?.title">
+                            <img class="product__img" :src="obj?.image" width="85" height="85" :alt="obj?.title">
                         </div>
                         <div class="product__images-right">
                             <img class="product__img" :src="obj.image" width="456" height="456" :alt="obj.title">

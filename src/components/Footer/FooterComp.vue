@@ -1,10 +1,12 @@
 <script setup>
 import './Footer.css'
 import { ref } from 'vue';
-let show1 = ref(false);
-let show2 = ref(false);
-let show3 = ref(false);
-let show4 = ref(false);
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n({useScope: 'global'})
+let show1 = ref(true);
+let show2 = ref(true);
+let show3 = ref(true);
+let show4 = ref(true);
 let show5 = ref(false);
 let show6 = ref(false);
 let show7 = ref(false);
@@ -41,9 +43,9 @@ function isOpen8(){
                 <div class="footer__wrapper">
                     <div class="logo__wrapper">
                         <img src="/img/logob.svg" alt="logo">
-                        <p class="footer__text">Продай, найди, купи все что пожелаешь…</p>
+                        <p class="footer__text">{{t('footer.text1')}}</p>
                     </div>
-                    <p class="footer_top-text">Веб сайт бесплатных обьявлений | на базе имеется 234 944 999 шт обяления</p>
+                    <p class="footer_top-text">{{t('footer.text2')}}</p>
                     <div class="footer__top-imgs">
                         <img src="/public/img/footer__store.svg" alt="app store">
                         <img src="/public/img/footer__play.svg" alt="google play">
@@ -55,7 +57,7 @@ function isOpen8(){
             <div class="container">
                 <ul class="footer__list">
                     <li class="footer__item">
-                        <h3 @click="isOpen1" class="footer__item-title">Автомобили</h3>
+                        <h3 @click="isOpen1" class="footer__item-title">{{t('hero.text1')}}</h3>
                         <ul v-if="show1">
                             <li>
                                 <a class="footer__item-link" href="/"> Легковые авто</a>
@@ -84,7 +86,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li class="footer__item">
-                        <h3 @click="isOpen2" class="footer__item-title">Недвижимость</h3>
+                        <h3 @click="isOpen2" class="footer__item-title">{{t('hero.text2')}}</h3>
                         <ul v-if="show2">
                             <li>
                                 <a class="footer__item-link" href="/">Аренда квартир</a>
@@ -125,7 +127,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li @click="isOpen3" class="footer__item">
-                        <h3 class="footer__item-title">Электроника</h3>
+                        <h3 class="footer__item-title">{{t('hero.text3')}}</h3>
                         <ul v-if="show3">
                             <li>
                                 <a class="footer__item-link" href="/">Телефоны</a>
@@ -163,7 +165,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li @click="isOpen4" class="footer__item">
-                        <h3 class="footer__item-title">Личные вещи</h3>
+                        <h3 class="footer__item-title">{{t('hero.text5')}}</h3>
                         <ul v-if="show4">
                             <li>
                                 <a class="footer__item-link" href="/">Одежда, обувь, аксессуары</a>
@@ -189,7 +191,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li @click="isOpen5" class="footer__item">
-                        <h3 class="footer__item-title">Дом и Сад</h3>
+                        <h3 class="footer__item-title">{{t('hero.text6')}}</h3>
                         <ul v-if="show5">
                             <li>
                                 <a class="footer__item-link" href="/"> Товары для интерьера</a>
@@ -218,7 +220,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li @click="isOpen6" class="footer__item">
-                        <h3 class="footer__item-title">Товары стройки и ремонта</h3>
+                        <h3 class="footer__item-title">{{t('hero.text10')}}</h3>
                         <ul v-if="show6">
                             <li>
                                 <a class="footer__item-link" href="/"> Двери и окна</a>
@@ -235,7 +237,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li @click="isOpen7" class="footer__item">
-                        <h3 class="footer__item-title">Хобби, Отдых и Спорт</h3>
+                        <h3 class="footer__item-title">{{t('hero.text11')}}</h3>
                         <ul v-if="show7">
                             <li>
                                 <a class="footer__item-link" href="/">Антиквариат и Коллекции</a>
@@ -264,7 +266,7 @@ function isOpen8(){
                         </ul>
                     </li>
                     <li @click="isOpen8" class="footer__item">
-                        <h3 class="footer__item-title"> Бизнес и услуги</h3>
+                        <h3 class="footer__item-title"> {{t('hero.text9')}}</h3>
                         <ul v-if="show8">
                             <li>
                                 <a class="footer__item-link" href="/"> Сырьё и материалы</a>
@@ -348,16 +350,16 @@ function isOpen8(){
                     </li>
                 </ul>
                 <div class="footer__more">
-                    <button class="footer__btn">Покозать еще</button>
+                    <button class="footer__btn">{{t('card.show')}}</button>
                 </div>
                 <div class="foooter__bottom">
-                    <router-Link class="footer__link" to="/">Подать объявление</router-Link>
-                    <router-Link class="footer__link" to="/"> Объявления</router-Link>
-                    <router-Link class="footer__link" to="/">Магазины</router-Link>
-                    <router-Link class="footer__link" to="/">Помощь</router-Link>
-                    <router-Link class="footer__link" to="/">Безопасность</router-Link>
-                    <router-Link class="footer__link" to="/">Реклама на сайте</router-Link>
-                    <router-Link class="footer__link" to="/">О компании</router-Link>
+                    <router-Link class="footer__link" to="/">{{t('header.lifive')}}</router-Link>
+                    <router-Link class="footer__link" to="/add">{{t('header.lione')}}</router-Link>
+                    <router-Link class="footer__link" to="/product">{{t('header.litwo')}}</router-Link>
+                    <router-Link class="footer__link" to="/">{{t('header.lifour')}}</router-Link>
+                    <router-Link class="footer__link" to="/">{{t('header.lisix')}}</router-Link>
+                    <router-Link class="footer__link" to="/">{{t('header.liseven')}}</router-Link>
+                    <router-Link class="footer__link" to="/">{{t('header.lieight')}}</router-Link>
                 </div>
             </div>
         </div>

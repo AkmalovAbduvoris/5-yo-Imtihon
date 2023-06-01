@@ -11,7 +11,6 @@ async function fetch(){
     let res = await axios.get('https://fakestoreapi.com/products/')
     obj.value = res.data.splice(16, 20)
 }
-console.log();
 fetch()
 </script>
 <template>

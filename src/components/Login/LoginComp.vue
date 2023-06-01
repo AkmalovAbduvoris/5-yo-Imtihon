@@ -1,10 +1,14 @@
 <script setup>
-import { useRouter } from 'vue-router';
-
-const router = useRouter()
 import './Login.css'
+import { useRouter } from 'vue-router';
+import { ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n({useScope: 'global'})
+const router = useRouter()
 let email = 'eve.holt@reqres.in';
 let pass = 'cityslicka';
+let a = ref(false)
+let s = ref(false)
 function POST() {
     fetch('https://reqres.in/api/login',{
         headers: {'Content-Type' : 'application/json'},
@@ -22,7 +26,12 @@ function POST() {
     })
 }
 if(localStorage.getItem('token')){
-    router.push('/')
+    a.value = true
+    setTimeout(() => {
+        router.push('/') 
+    }, 3000);
+}else{
+    s.value = true
 }
 
 </script>
@@ -31,25 +40,27 @@ if(localStorage.getItem('token')){
         <div class="container">
             <div class="login__wrapper">
                 <div class="login__left-wrapper">
-                    <h2 class="login__title">Ваша регистрация завершена!</h2>
-                    <p class="login__text">Вы успешно зарегистрированы на сайте киви и ваше пароль отправлен в виде смс на ваше телефонный номер</p>
+                    <h2 v-if="a" class="login__title"> {{t('login.title1')}}</h2>
+                    <h2 v-if="s" class="login__title"> {{t('login.title2')}}</h2>
+                    <p v-if="a" class="login__text">{{t('login.link1')}}</p>
+                    <p v-if="s" class="login__text">{{t('login.link2')}}</p>
                     <div class="login__input-wrapper">
-                        <p class="login__input-text">Введите email или номер телефона</p>
+                        <p class="login__input-text">{{t('login.text1')}}</p>
                         <input class="login__inp" type="email" v-model="email">
                     </div>
                     <div class="login__input-wrapper">
-                        <p class="login__input-text">Пароль</p>
+                        <p class="login__input-text">{{t('login.text2')}}</p>
                         <input class="login__inp" type="password" v-model="pass">
                     </div>
-                    <button class="login__left-btn" @click="POST">Войти</button>
-                    <p class="login__left-text">или</p>
-                    <p class="login__left-recover">Восстоновить ваше пароль</p>
+                    <button class="login__left-btn" @click="POST">{{t('buttons.login')}}</button>
+                    <p class="login__left-text">{{t('login.text3')}}</p>
+                    <p class="login__left-recover">{{t('login.text4')}}</p>
                 </div>
                 <div class="login__right-wrapper">
                     <div class="login__card">
                         <img src="img/login__kiwi.svg" width="50" height="26" alt="kiwi">
-                        <p class="card__text">Откройте для себя целую плошадку для продаже</p>
-                        <button class="card__right-btn">Как это делать?</button>
+                        <p class="card__text">{{t('login.text5')}}</p>
+                        <button class="card__right-btn">{{t('buttons.how')}}</button>
                     </div>
                 </div>
             </div>

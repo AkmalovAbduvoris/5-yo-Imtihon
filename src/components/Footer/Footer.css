@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 52px;
 }
 .footer__item{
     margin-bottom: 30px;

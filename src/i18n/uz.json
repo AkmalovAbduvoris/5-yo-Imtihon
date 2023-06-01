@@ -1,0 +1,100 @@
+{
+    "header":{
+        "text": "Xohlagan narsangizni soting, toping, sotib oling...",
+        "lione": "E'lonlar",
+        "litwo": "Do'konlar",
+        "lithree": "Biznes uchun",
+        "lifour": "Yordam",
+        "lifive": "Reklamani yuboring",
+        "lisix": "Xavfsizlik",
+        "liseven": "Saytda reklama",
+        "lieight": "Kompaniya haqida",
+        "login": "Kirish Roʻyxatdan oʻtish"
+    },
+    "hero": {
+        "text1": "Avtomobillar",
+        "text2": "Ko'chmas mulk",
+        "text3": "Elektronika",
+        "text4": "Ish",
+        "text5": "Shaxsiy narsalar",
+        "text6": "Uy va bog'",
+        "text7": "Qurilish va ta'mirlash",
+        "text8": "Xobbi va sport",
+        "text9": "Biznes va xizmatlar",
+        "text10": "Qurilish va ta'mirlash tovarlari",
+        "text11": "Xobbi, dam olish va sport"
+    },
+    "act": {
+        "title1": "Yangi e'lonlar",
+        "title2": "Eng yaxshi taklif"
+    },
+    "card": {
+        "show": "ko'proq ko'rsatish"
+    },
+    "footer":{
+        "text1": "Xohlagan narsangizni soting, toping, sotib oling...",
+        "text2": "Bepul reklama sayti / bazada 234 944 999 ta element mavjud"
+    },
+    "user":{
+        "title": "Salom Akmalov Abduvoris",
+        "price": "Sizning hisobingiz: 2 3000 so'm",
+        "pay": "To'ldirish",
+        "text1": "E'lonlar",
+        "text2": "Xabarlar",
+        "text3": "To'lovlar va hisob",
+        "text4": "Sozlamalar",
+        "text5": "Mening biznesim",
+        "title1": "Tezkor dasturchi kerak",
+        "pay1": "6 000 000 so'm",
+        "data1": "Dan: 28-iyun",
+        "data2": "Gacha: 28 iyul",
+        "green": "Oshirish",
+        "blue": "Reklama",
+        "bottom1": "Statistika",
+        "bottom2": "Ko'rishlar: 195",
+        "bottom3": "Tel: 200",
+        "bottom4": "Sevimli: 0"
+    },
+    "heroo": {
+        "text1": "Har qanday kategoriya",
+        "text2": "Biz nimani qidirmoqdamiz?",
+        "text3": "Butun O'zbekiston bo'ylab"
+    },
+    "buttons": {
+        "find": "Qidirish",
+        "add": "Reklama qo'shish uchun",
+        "login": "Kirish",
+        "how": "Buni qanday qilish kerak?",
+        "apply": "Qo'llash"
+    },
+    "login": {
+        "title1": "Roʻyxatdan oʻtish tugallandi!",
+        "title2": "Iltimos roʻyxatdan oʻting!",
+        "link1" : "Siz Qiwi veb-saytida muvaffaqiyatli ro'yxatdan o'tdingiz va parolingiz telefon raqamingizga SMS orqali yuborildi",
+        "link2" : "Iltimos, login va parolingizni kiriting",
+        "text1" : "Elektron pochta yoki telefon raqamini kiriting",
+        "text2" : "Parol",
+        "text3" : "yoki",
+        "text4" : "Parolingizni tiklang",
+        "text5" : "Sotish uchun butun platformani kashf eting"
+    },
+    "list": {
+        "text1": "Qiziqarli",
+        "text2": "Yuqori",
+        "text3": "Ajoyib taklif",
+        "text4": "Super narx",
+        "text5": "Toshkent",
+        "text6": "Termiz",
+        "text7": "Samarqand",
+        "text8": "Siz hozir rubrikadasiz",
+        "text9": "Elektronika",
+        "text10": "Monitorlar",
+        "text11": "Dan vagacha narxni tanlang",
+        "text12": "Davlat",
+        "text13": "Deklarator turi",
+        "text14": "Toshkent > Mirzo Ulug‘bek tumani"
+       },
+       "interesting": {
+        "title": "ENG QIZIQARLI"
+    }
+}
