@@ -34,7 +34,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">{{t('user.green')}}</p>
                                 <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">{{t('user.green')}}</p>
                                 <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">{{t('user.green')}}</p>
                                 <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">{{t('user.green')}}</p>
                                 <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ import './Statistics.css'
                                 <p class="statistics__right-green">{{t('user.green')}}</p>
                                 <p class="statistics__right-blue">{{t('user.blue')}}</p>
                                 <button class="statistics__right-btn" @click="no">
-                                    <img src="public/img/statistics__btn.svg" width="18" height="5" alt="button">
+                                    <img src="/img/statistics__btn.svg" width="18" height="5" alt="button">
                                 </button>
                             </div>
                         </div>
