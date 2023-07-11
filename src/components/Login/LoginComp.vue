@@ -58,7 +58,7 @@ if(localStorage.getItem('token')){
                 </div>
                 <div class="login__right-wrapper">
                     <div class="login__card">
-                        <img src="img/login__kiwi.svg" width="50" height="26" alt="kiwi">
+                        <img src="/img/login__kiwi.svg" width="50" height="26" alt="kiwi">
                         <p class="card__text">{{t('login.text5')}}</p>
                         <button class="card__right-btn">{{t('buttons.how')}}</button>
                     </div>
