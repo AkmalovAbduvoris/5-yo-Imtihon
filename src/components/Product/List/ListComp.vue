@@ -9,7 +9,7 @@ const { t } = useI18n({useScope: 'global'})
         <div class="container">
             <div class="list__wrapper">
                 <input class="list__input" type="text" placeholder="Введите название обявления или">
-                <img class="list__img" src="img/list__search.svg  " alt="">
+                <img class="list__img" src="img/list__search.svg" alt="search">
                 <div class="list__text-wrapper">
                     <p class="list__text-blue">{{t('list.text1')}}</p>
                     <p class="list__text-aqua">{{t('list.text2')}}</p>
