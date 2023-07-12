@@ -28,7 +28,7 @@ function POST() {
 if(localStorage.getItem('token')){
     a.value = true
     setTimeout(() => {
-        router.push('/') 
+        router.push({ path: '/' }) 
     }, 3000);
 }else{
     s.value = true
