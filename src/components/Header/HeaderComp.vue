@@ -16,7 +16,7 @@ if(token){
     login.value = true
 }
 if(!localStorage.getItem('token')){
-    router.push('/login')
+    router.push('/')
 }
 function swichLang(e){
     locale.value = e.target.value
