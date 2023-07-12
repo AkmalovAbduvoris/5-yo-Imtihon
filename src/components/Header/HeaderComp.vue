@@ -1,10 +1,10 @@
 <script setup>
 import './Header.css'
 import { ref } from 'vue'
-// import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n({useScope: 'global'})
-// const router = useRouter()
+const router = useRouter()
 let user = ref(false)
 let login = ref(false)
 let settings = ref(false)
@@ -15,9 +15,9 @@ if(token){
 }else{
     login.value = true
 }
-// if(!token){
-//     router.push('/')
-// }
+if(!localStorage.getItem('token')){
+    router.push('/login')
+}
 function swichLang(e){
     locale.value = e.target.value
     window.localStorage.setItem('lang' , locale.value)
