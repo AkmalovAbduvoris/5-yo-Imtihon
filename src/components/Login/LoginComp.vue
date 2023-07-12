@@ -1,10 +1,10 @@
 <script setup>
 import './Login.css'
-import { useRouter } from 'vue-router';
+// import { useRouter } from 'vue-router';
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n({useScope: 'global'})
-const router = useRouter()
+// const router = useRouter()
 let email = 'eve.holt@reqres.in';
 let pass = 'cityslicka';
 let a = ref(false)
