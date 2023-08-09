@@ -11,7 +11,7 @@ const photos = [
 ];
 </script>
 <template>
-    <carousel :autoplay="3000"  :wrap-around="true" :items-to-show="3">
+    <carousel :autoplay="3000"  :wrap-around="true" :items-to-show="3" :transition="2000">
       <slide v-for="photo in photos" :key="photo">
         <img :src="`img/${photo}`" width="359" height="238"  alt="Corusel">
       </slide>

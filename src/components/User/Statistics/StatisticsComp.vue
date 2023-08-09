@@ -171,7 +171,7 @@ import './Statistics.css'
                     <dir class="moadal">
                         <h1 class="modal__title">HICH NIMA YO'Q</h1>
                         <p class="modal__text">Agar shu yerga yozishga biror bir taklifingiz bo'lsa shu yerda o'z takliflaringizni bildiring</p>
-                        <a class="modal__link" href="/">Telegramm</a>
+                        <a class="modal__link" href="https://t.me/Abduvorisss">Telegramm</a>
                         <button class="modal__btn" @click="modal = false">back</button>
                     </dir>
                 </div>
