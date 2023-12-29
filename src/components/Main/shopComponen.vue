@@ -5,7 +5,7 @@ import CardComp from './Card/CardComp.vue';
 import CardshowComp from './CardShow/CardshowComp.vue';
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n({useScope: 'global'})
-
+  
 let data = ref([])
 let obj = ref([])
 let btnShow = ref(true)

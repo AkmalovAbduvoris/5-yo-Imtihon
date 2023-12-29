@@ -1,16 +1,18 @@
 <script setup>
 import './Product.css'
 import axios from 'axios'
-import { ref } from 'vue'
+import { ref, onMounted, watch, computed } from 'vue'
 import { useRoute } from 'vue-router'
 const route = useRoute()
-let id = route.params.id
+let id = computed(()=>{return route.params.id})
 let obj = ref({})
 let num1= ref('99891 166 ****')
 let num2 = ref('99891 166 ****')
 async function fetch(){
-    let arr = await axios.get('https://fakestoreapi.com/products/' + id)
-    obj.value = arr.data
+    console.log('run');
+    let arr = await axios.get('https://fakestoreapi.com/products/' + id.value)
+    obj.value = await arr.data
+    console.log(obj.value);
 }
 function Clicked1(){
     num1.value = '99891 166 3787'
@@ -18,7 +20,15 @@ function Clicked1(){
 function Clicked2(){
     num2.value = '99891 166 8737'
 }
-fetch()
+onMounted(()=>{
+    fetch()
+})
+
+watch(()=>route.params.id,
+async()=>{
+    await fetch()
+    console.log(route.params.id,  obj.value);
+})
 </script>
 <template>
     <section class="product">
